@@ -11,9 +11,9 @@ else:
     rate="5"
     time="3"
     print("default inputs")
-    si=(int(principle)*float(rate)*int(time))/100
-    print("Script Name:",script_name)   
-    print("Principle Amount:",principle)
-    print("Rate of Interest:",rate)
-    print("Time (years):",time)
-    print("Simple Interest:",si)
+si=(int(principle)*float(rate)*int(time))/100
+print("Script Name:",script_name)   
+print("Principle Amount:",principle)
+print("Rate of Interest:",rate)
+print("Time (years):",time)
+print("Simple Interest:",si)
